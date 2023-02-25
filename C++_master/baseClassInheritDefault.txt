@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class aaa
+{
+pulic:
+aaa()
+{
+cout<<"base class default constructor"<<endl;
+}
+class bbb:pulbic aaa
+{
+public:
+bbb()
+{
+cout<<"Derived class default constructor"<<endl;
+}
+};
+int main()
+{
+bbb b;
+return 0;
+}
